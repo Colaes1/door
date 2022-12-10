@@ -20,3 +20,16 @@ a = a / 10;
 sum = sum + num;
 }
 Console.WriteLine("сумма всех цифр в числе равна: " + sum);
+
+Задача 29: Напишите программу, которая задаёт массив из N элементов и выводит их на экран. Вывод сделать отдельным методом.
+int [] num ={1, 2, 5, 7, 19};
+void PrintArr (int[] num)
+{
+	int count = num.Length;
+	for (int i = 0; i < count; i++)
+	{
+		Console.Write($"{num[i]} ");
+	}
+	Console.WriteLine();
+}
+PrintArr(num);
